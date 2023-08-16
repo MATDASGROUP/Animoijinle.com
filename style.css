@@ -1,0 +1,362 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    background-color: #ccccce;
+}
+
+nav {
+    background-color: #111;
+    padding: 20px, 60px;
+}
+
+.navTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.search1{
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.searchInput{
+    border: none;
+    background-color: transparent;
+}
+
+.searchInput::placeholder{
+    color: lightgrey;
+}
+
+.limitedOffer{
+    color: beige;
+    text-align: center;
+    justify-items: center;
+    font-size: 20px;
+    border-bottom: 2px solid green;
+    cursor: pointer;
+}
+
+.cart{
+    width: 35;
+    height: 25;
+    background-color: blanchedalmond;
+    border-radius: 5;
+}
+
+.navBottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(252, 181, 3);
+    font-size: 12;
+    margin-top: 0;
+    
+}
+
+.menuItem{
+    margin-right: 40px;
+    cursor: pointer;
+}
+.menuItem:hover{
+    color:rgb(241, 241, 241)
+}
+.slider{
+    background: url("./image/scienceN.png");
+    /*clip-path: polygon(0 0, 100% 6%, 100% 99%, 0 88%);*/
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.sliderWrapper{
+    display: flex;
+    width: 800vw;
+  
+}
+
+.sliderItem{
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sliderTitle{
+    position: absolute;
+    top: 5vw;
+    right: 5%;
+    color: rgb(255, 255, 255);
+    font-size: 60;
+    font-weight: 900;
+    text-shadow: 2px black;
+    text-align: center;
+}
+
+.sliderItem:nth-child(1) .sliderImage{
+    position: absolute;
+    top: 3vw;
+    left: 6vw;
+}
+.sliderItem:nth-child(2) .sliderImage{
+    position: absolute;
+    top: 5vw;
+    left: 8vw;
+}
+.sliderItem:nth-child(3) .sliderImage{
+    position: absolute;
+    top: 8vw;
+    left: 8vw;
+}
+.sliderItem:nth-child(5) .sliderImage{
+    position: absolute;
+    top: 3vw;
+    left: 8vw;
+}
+
+
+.sliderPrice{
+    position: absolute;
+    top: 23vw;
+    right: 18%;
+    color: rgb(5, 5, 5);
+    font-size: 40;
+    font-weight: 500;
+    text-align: center;
+    border: 3px solid rgb(235, 31, 4);
+    
+}
+
+.sliderImage{
+    position: absolute;   
+    top: 10%;
+    left: 6%;
+    width: 33vw;
+    z-index: 1;
+}
+
+.sliderBg{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 3vw;
+    left: 8%;
+    border-radius: 50%;
+    
+}
+.sliderItem:nth-child(1) .sliderBg{
+    background-color: yellow;
+}
+.sliderItem:nth-child(2) .sliderBg{
+    background-color: rgb(44, 138, 155);
+}
+.sliderItem:nth-child(3) .sliderBg{
+    background-color: rgb(224, 141, 32);
+}
+.sliderItem:nth-child(4) .sliderBg{
+    background-color: rgb(117, 19, 19);
+}
+.sliderItem:nth-child(5) .sliderBg{
+    background-color: rgb(12, 134, 67);
+}
+.sliderItem:nth-child(6) .sliderBg{
+    background-color: rgb(119, 79, 114);
+}
+.sliderItem:nth-child(7) .sliderBg{
+    background-color: rgb(32, 235, 235);
+}
+.sliderItem:nth-child(8) .sliderBg{
+    background-color: rgb(139, 235, 31);
+}
+
+.buybButton {
+    position: absolute;
+    top: 30vw;
+    right: 15%;
+    font-size: 30;
+    font-weight: 600;
+    text-align: center;
+    border: 1 solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(187, 186, 186);
+}
+
+.buybButton:hover {
+    color: azure;
+    background-color: black;
+}
+
+.latest {
+    display: flexbox;
+    height: 330px;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    background: rgb(44, 44, 44);
+}
+
+.latTitle{
+    text-align: center;
+    font-size: 30;
+    font-weight: 500;
+    color: antiquewhite;
+}
+.lat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.latestItem{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.latestProImg{
+    width: 100px;
+    height: 150px;
+}
+
+.latestProTitle{
+    font-size: 15;
+    font-weight: 500;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.latestDesc{
+    font-size: 14;
+    color: aliceblue;
+    text-align: center;
+}
+
+.latestProPrice{
+    font-size: 18;
+    font-weight: 500;
+    color: rgb(241, 241, 241)
+}
+
+.latButton{
+    background-color: wheat;
+    color: rgb(206, 9, 9);
+    text-align: center;
+    border: 1 solid #111;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 18;
+}
+
+.latButton:hover{
+    background-color: rgb(170, 3, 3);
+    color: rgb(253, 253, 255);
+}
+
+.categories {
+    display: flexbox;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 165px;
+    padding-top: 10px;
+    margin-top: 10px;
+    background-color: linear-gradient(rgb(201, 49, 49) rgb(99, 20, 20));
+}
+
+.cate {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3px;
+    background-color: gray;
+
+}
+
+.categ {
+    background-color: azure;
+    padding: 5px 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.categoryTitle{
+    font-size: 20;
+    text-align: center;
+}
+
+.seeMore {
+    font: 15;
+    font-weight: 400;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: aboslute;
+    right: 5%;
+}
+
+.seeMore:hover{
+    color: goldenrod;
+}
+
+.space{
+    height: 250px;
+    background-color: gray;
+}
+.bottomFlex{
+    display: flexbox;
+    background-color: #111;
+    justify-content: center;
+    align-items: center;
+}
+.bkTop{
+    font-size: 16;
+    font-weight: 350;
+    height: auto;
+    background-color: #0a0909;
+    padding: 5px;
+    margin: 0px;
+    color: goldenrod;
+    text-align: center;
+}
+
+.bottomMenu{
+    display: flex;
+    padding: 10px;
+    align-items: start;
+    justify-content: space-evenly;
+    background-color: #2d2d2e;
+    position: relative;
+}
+
+.row1{
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.rowTitle{
+    font-size: 16;
+    font-weight: 500;
+    color: rgb(173, 173, 173);
+}
+
+.rowItem {
+    font-size: 13;
+    font-weight: 400;
+    color: rgb(161, 159, 159);
+}
+
+.copywrite{
+    font-size: 12;
+    font-weight: 350;
+    height: auto;
+    background-color: #0a0909;
+    padding: 5px;
+    margin: 0;
+    color: rgb(173, 173, 173);
+    text-align: center;
+}
