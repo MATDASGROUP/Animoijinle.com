@@ -1,12 +1,13 @@
 body{
     font-family: 'Roboto', sans-serif;
     padding: 0px;
-    background-color: #ccccce;
+    background-color: #e2e2e9;
 }
 
 nav {
     background-color: #111;
     padding: 20px, 60px;
+    margin-bottom: 0;
 }
 
 .navTop {
@@ -66,6 +67,121 @@ nav {
     color:rgb(241, 241, 241)
 }
 
+a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.header{
+    background: radial-gradient(rgb(182, 182, 250), rgb(223, 223, 231));
+}
+.small-container{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    transform: ease 5s;
+}
+
+.product img{
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    align-items: center;
+    border-radius: 0;
+    border: 1 solid rgb(94, 171, 235);
+    padding-bottom: 2px;
+}
+
+.divider{
+    width: 95vw;
+    height: 5px;
+    background-color: #6a6a6d;
+}
+
+.container h3{
+    font-size: 25;
+    font-weight: 600;
+    color: #2d2d2e;
+}
+
+.container h5{
+    font-size: 16;
+    font-weight: 600;
+    color: #2d2d2e;
+}
+
+.pagetitle h1{
+    font-size: 40;
+    font-weight: 600;
+    color: #e63c1e;
+    text-align: center;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.pagetitle p{
+    font-size: 18;
+    font-weight: 500;
+    color: #797777;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.pagetitle {
+    font-size: 24;
+    font-weight: 600;
+    color: #5e5b5b;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.product{
+    transform: translateY(-10px);
+    cursor: pointer;
+    margin: 25px;
+}
+
+.ProTitle{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #2d2d2e;
+    margin: 4px;
+    
+}
+
+.proPrice{
+    font-size: 18;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(151, 11, 11);
+    margin: 5px;
+}
+
+.buynowbtn{
+    font-size: 16;
+    font-weight: 400;
+    background-color: #111;
+    color: whitesmoke;
+    border: 5 solid rgb(156, 3, 3);
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px;
+}
+
+.buynowbtn:hover{
+    color: #e63c1e;
+    background-color: whitesmoke;
+    font-weight: 600;
+}
+
+
+
+
+
+
 
 
 .latest {
@@ -74,7 +190,7 @@ nav {
     align-items: center;
     justify-content: center;
     padding: 3px;
-    background: rgb(44, 44, 44);
+    background: rgb(112, 112, 112);
 }
 
 .latTitle{

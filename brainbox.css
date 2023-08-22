@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     padding: 0px;
-    background-color: #ccccce;
+    background-color: #efeff5;
 }
 
 nav {
@@ -65,6 +65,52 @@ nav {
 .menuItem:hover{
     color:rgb(241, 241, 241)
 }
+
+a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.pagetitle{
+    font-size: 40;
+    font-weight: 600;
+    color: #e63c1e;
+    text-align: center;
+}
+.container{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bicon{
+    width: 300px;
+    margin: 10px;
+    align-items: center;
+    border-radius: 50%;
+    border: 1 solid rgb(94, 171, 235);
+}
+
+.divider{
+    width: 95vw;
+    height: 5px;
+    background-color: #6a6a6d;
+}
+
+.container h3{
+    font-size: 25;
+    font-weight: 600;
+    color: #2d2d2e;
+}
+
+.container h5{
+    font-size: 16;
+    font-weight: 600;
+    color: #2d2d2e;
+}
+
+
 
 
 
